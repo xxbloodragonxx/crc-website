@@ -7,6 +7,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles... */
 
+/*
+  base font-size: 18px
+  base line-height: 22px
+  Major Third is our modular scale:
+  https://www.modularscale.com/?18&px&1.25
+*/
+
 /* Base Styles */
 
 

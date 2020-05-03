@@ -19,6 +19,7 @@ html {
   font-family: "Open Sans";
   font-size: 1.125em; /* 18px / 16px = 1.125em */
   line-height: 1.2222222222em; /* 22px / 18px = 1.2222222222em */
+  overflow-x: hidden;
 }
 
 h1,

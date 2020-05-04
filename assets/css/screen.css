@@ -16,22 +16,69 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Base Styles */
 html {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 1.125em; /* 18px / 16px = 1.125em */
   line-height: 1.2222222222em; /* 22px / 18px = 1.2222222222em */
   overflow-x: hidden;
+  padding: 2em;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  background: #FEFEFF;
+}
+/* Navigation Styles */
+.logo {
+  width: 80%;
+  margin-left: 1.5em;
+}
+
+.icon-menu3:before {
+  content: "\e9bf";
+}
+
+.icon-menu3 {
+  position: relative;
+  margin-left: 5.9604444444em; /* 107.288px / 18px = 5.9604444444em */
+  margin-top: -3.8147222222em; /* 68.665px / 18px = 3.8147222222em */
+  font-size: 2.4413888889em; /* 43.945px / 18px = 2.4413888889em */
+  color: #1CA0E3;
+}
+
+.active {
+  display: block;
+}
+
+#navigation {
+  display: none;
+}
+
+.nav a {
+  display: block;
+  background: #FEFEFF;
+  border: 1px solid #1CA0E3;
+  color: #1CA0E3;
+  text-align: center;
+  padding: 18px;
+  margin-bottom: 6px;
+  text-decoration: none;
+  line-height: 0;
+  outline: 0;
+}
+
+.nav a:hover,
+.nav a:active,
+.nav a:focus {
+  background: #1CA0E3;
+  color: #FEFEFF;
 }
 
 /* Responsive Media */
-img {
-  display: block;
-  width: 50%;
-}
+
 
 /* State Styles */
